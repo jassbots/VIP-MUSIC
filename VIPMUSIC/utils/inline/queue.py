@@ -66,22 +66,23 @@ def queue_back_markup(_, CPLAY):
 def aq_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="IIᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="▢sᴛᴏᴘ▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="sᴋɪᴘ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+
         ],
         [
             InlineKeyboardButton(
-                text="ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
+                text="ᯓᴏᴡɴᴇʀᡣ𐭩", url=f"https://t.me/unknown_bande"
             ),
             InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀʏ", callback_data=f"ADMIN Replay|{chat_id}"
+                text="sᴜᴘᴘᴏʀᴛ✧", url=f"https://t.me/punjabiii_chat"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="๏ ᴍᴏʀᴇ ๏", url="https://t.me/Punjabiii_chat",
+                
             ),
         ],
     ]
@@ -97,26 +98,34 @@ def queuemarkup(_, vidid, chat_id):
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
+
+
         [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="II ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
-        ],
-        [
+
             InlineKeyboardButton(
-                text="ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
+                text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"
             ),
+
             InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀʏ", callback_data=f"ADMIN Replay|{chat_id}"
+                text="sᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="ᯓᴏᴡɴᴇʀᡣ𐭩", url=f"https://t.me/unknown_bande"
+            ),
+            InlineKeyboardButton(
+                text="sᴜᴘᴘᴏʀᴛ✧", url=f"https://t.me/punjabiii_chat"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="๏ ᴍᴏʀᴇ ๏", url="https://t.me/Punjabiii_chat",
+                
             ),
         ],
     ]
